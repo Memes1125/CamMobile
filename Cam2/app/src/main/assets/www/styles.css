@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width:100%;
+	height:100%;
+    border:2px solid black;
+    padding:2px;
+	max-height:auto;
+}
+.row {
+    height:480px;
+    border:2px solid blue;
+    width:100%;
+    margin-bottom:5px;
+    padding:10px;
+	max-height:auto;
+}
+.col1 {
+    border:2px solid red;
+    width:100%;
+    height:100%;
+}
+.col2 {
+    border:2px solid green;
+    width:49%;
+    float:left;
+    height:362;
+    margin-right:2%;
+	max-height:auto;
+}
+.col2:last-child {margin-right:0;  }
+.col3 {
+    border:2px solid brown;
+    width:32%;
+    float:left;
+    height:90%;
+    margin-right:2%;
+}
+.col3:last-child {margin-right:0;  }
